@@ -41,3 +41,5 @@ When this class is called, the name, price, and quantity of each product in the 
 
 ## Recommend
 The store system collects manual reviews from the customers at fixed points of a normal business day and stores them in a MySQL database. The ratings are from 0-5. These ratings, once extracted into the class are used to create a regression model based on a customer’s purchase as the dependent variable. The manager inputs the corresponding item code and necessity factor and gets the amount he needs to purchase as part of the recommendation. For a particular item, only that item’s regression coefficient is used in the equation.
+
+# (Note: Executables for the mobile app will be added in due course of time)
